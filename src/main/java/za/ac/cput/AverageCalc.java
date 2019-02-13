@@ -7,17 +7,17 @@ public class AverageCalc {
 
     public static void main(String[] args) {
 
-        int mark=0 ;
-        int count=0;
-        int total=0;
-        int average=0;
+        double mark=0 ;
+        double count=0;
+        double total=0;
+        double average=0;
         System.out.println("Enter a mark ( enter -1 to cancel prompt )");
-        mark=console.nextInt();
+        mark=console.nextDouble();
 
         while (mark !=-1){
             total=total+mark;
             System.out.println("Enter a mark ( enter -1 to cancel prompt )");
-            mark=console.nextInt();
+            mark=console.nextDouble();
 
             count++;
         }
